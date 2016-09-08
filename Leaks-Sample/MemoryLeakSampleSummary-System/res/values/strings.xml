@@ -1,0 +1,22 @@
+<resources>
+    <add-resource type="string" name="app_name" />
+    <string name="app_name">MemoryLeakSampleSummary</string>
+    <add-resource type="string" name="title_activity_handler_leak" />
+    <string name="title_activity_handler_leak">HandlerLeakActivity</string>
+    <add-resource type="string" name="title_activity_inner_class_leak" />
+    <string name="title_activity_inner_class_leak">InnerClassLeakActivity</string>
+    <add-resource type="string" name="title_activity_anonymous_class_leak" />
+    <string name="title_activity_anonymous_class_leak">AnonymousClassLeakActivity</string>
+    <add-resource type="string" name="str_release" />
+    <string name="str_release">release</string>
+    <add-resource type="string" name="handler_leak" />
+    <string name="handler_leak">Handler Leak</string>
+    <add-resource type="string" name="inner_class_leak" />
+    <string name="inner_class_leak">Inner Class Leak</string>
+    <add-resource type="string" name="singleton_context_leak" />
+    <string name="singleton_context_leak">Singleton Context Leak</string>
+    <add-resource type="string" name="anonymous_class_leak" />
+    <string name="anonymous_class_leak">Anonymous Class Leak</string>
+    <add-resource type="string" name="static_drawable_leak" />
+    <string name="static_drawable_leak">Static Drawable Leak</string>
+</resources>
