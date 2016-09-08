@@ -12,37 +12,37 @@
 
     <Button
         android:id="@+id/btn_handler"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="Handler Leak" />
+        android:onClick="@string/str_onclick"
+        android:text="@string/handler_leak" />
 
     <Button
         android:id="@+id/btn_inner_class"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="Inner Class Leak" />
+        android:onClick="@string/str_onclick"
+        android:text="@string/inner_class_leak" />
 
     <Button
         android:id="@+id/btn_singleton_context"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="Singleton Context Leak" />
+        android:onClick="@string/str_onclick"
+        android:text="@string/singleton_context_leak" />
 
     <Button
         android:id="@+id/btn_anonymous"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onClick"
-        android:text="Anonymous Class Leak" />
+        android:text="@string/anonymous_class_leak" />
     <Button
         android:id="@+id/btn_static_drawable"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClick"
-        android:text="Static Drawable Leak" />
+        android:onClick="@string/str_onclick"
+        android:text="@string/static_drawable_leak" />
 
 
 </LinearLayout>
