@@ -1,0 +1,194 @@
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 1 samples:
+    Cached: 477MB min, 477MB avg, 477MB max
+    Free: 172MB min, 172MB avg, 172MB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 338MB min, 338MB avg, 338MB max
+    Native: 186MB min, 186MB avg, 186MB max
+  SOn /Norm: 4 samples:
+    Cached: 404MB min, 461MB avg, 488MB max
+    Free: 185MB min, 242MB avg, 357MB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 240MB min, 258MB avg, 312MB max
+    Native: 173MB min, 179MB avg, 186MB max
+
+Per-Package Stats:
+  * com.android.settings / 1000 / v23:
+      * com.android.settings / 1000 / v23:
+               TOTAL: 19% (36MB-41MB-52MB/33MB-38MB-47MB over 4)
+                 Top: 19% (36MB-41MB-52MB/33MB-38MB-47MB over 4)
+            Receiver: 0.33%
+          (Last Act): 2.6%
+            (Cached): 44% (8.6MB-23MB-34MB/6.6MB-19MB-30MB over 8)
+
+Summary:
+  * com.android.settings / 1000 / v23:
+           TOTAL: 19% (36MB-41MB-52MB/33MB-38MB-47MB over 4)
+             Top: 19% (36MB-41MB-52MB/33MB-38MB-47MB over 4)
+        Receiver: 0.33%
+      (Last Act): 2.6%
+        (Cached): 44% (8.6MB-23MB-34MB/6.6MB-19MB-30MB over 8)
+
+Run time Stats:
+  SOff/Norm: +1m3s507ms
+  SOn /Norm: +14m52s572ms (running)
+      TOTAL: +15m56s79ms
+
+Memory usage:
+  Kernel : 259MB (39 samples)
+  Native : 179MB (39 samples)
+  Persist: 235MB (36 samples)
+  Top    : 52MB (45 samples)
+  ImpFg  : 2.3MB (60 samples)
+  ImpBg  : 18MB (21 samples)
+  Service: 111MB (247 samples)
+  Receivr: 873KB (246 samples)
+  Home   : 24MB (7 samples)
+  LastAct: 0.91MB (20 samples)
+  CchAct : 6.1MB (7 samples)
+  CchEmty: 176MB (250 samples)
+  Cached : 461MB (39 samples)
+  Free   : 241MB (39 samples)
+  Z-Ram  : 4.0KB (39 samples)
+  TOTAL  : 1.7GB
+  ServRst: 68KB (40 samples)
+
+          Start time: 2016-09-06 16:16:27
+  Total elapsed time: +21m34s402ms (partial) libart.so
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 3 samples:
+    Cached: 416MB min, 496MB avg, 596MB max
+    Free: 19MB min, 213MB avg, 447MB max
+    ZRam: 4.0KB min, 152KB avg, 448KB max
+    Kernel: 292MB min, 331MB avg, 362MB max
+    Native: 180MB min, 183MB avg, 186MB max
+  SOn /Norm: 7 samples:
+    Cached: 404MB min, 518MB avg, 622MB max
+    Free: 72MB min, 180MB avg, 357MB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 240MB min, 267MB avg, 334MB max
+    Native: 173MB min, 182MB avg, 187MB max
+
+Per-Package Stats:
+  * com.android.settings / 1000 / v23:
+      * com.android.settings / 1000 / v23:
+               TOTAL: 9.7% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+                 Top: 9.5% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+            Receiver: 0.25%
+          (Last Act): 1.1%
+            (Cached): 60% (7.4MB-21MB-39MB/5.2MB-17MB-35MB over 13)
+      * com.android.settings:CryptKeeper / 1000 / v23:
+               TOTAL: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+                 Top: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+            (Cached): 0.33%
+
+Summary:
+  * com.android.settings / 1000 / v23:
+           TOTAL: 9.7% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+             Top: 9.5% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+        Receiver: 0.25%
+      (Last Act): 1.1%
+        (Cached): 60% (7.4MB-21MB-39MB/5.2MB-17MB-35MB over 13)
+  * com.android.settings:CryptKeeper / 1000 / v23:
+           TOTAL: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+             Top: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+        (Cached): 0.33%
+
+Run time Stats:
+  SOff/Norm: +11m46s502ms
+  SOn /Norm: +25m6s166ms
+       Mod : +3s177ms
+      TOTAL: +36m55s845ms
+
+Memory usage:
+  Kernel : 287MB (70 samples)
+  Native : 182MB (70 samples)
+  Persist: 229MB (144 samples)
+  Top    : 59MB (89 samples)
+  ImpFg  : 8.4MB (98 samples)
+  ImpBg  : 19MB (75 samples)
+  Service: 104MB (429 samples)
+  Receivr: 781KB (490 samples)
+  Home   : 12MB (8 samples)
+  LastAct: 0.98MB (32 samples)
+  CchAct : 2.8MB (10 samples)
+  CchEmty: 181MB (440 samples)
+  Cached : 511MB (70 samples)
+  Free   : 190MB (70 samples)
+  Z-Ram  : 51KB (70 samples)
+  TOTAL  : 1.7GB
+  ServRst: 59KB (93 samples)
+
+          Start time: 2016-01-01 08:01:16
+  Total elapsed time: +45m51s991ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 3 samples:
+    Cached: 416MB min, 496MB avg, 596MB max
+    Free: 19MB min, 213MB avg, 447MB max
+    ZRam: 4.0KB min, 152KB avg, 448KB max
+    Kernel: 292MB min, 331MB avg, 362MB max
+    Native: 180MB min, 183MB avg, 186MB max
+  SOn /Norm: 7 samples:
+    Cached: 404MB min, 518MB avg, 622MB max
+    Free: 72MB min, 180MB avg, 357MB max
+    ZRam: 4.0KB min, 4.0KB avg, 4.0KB max
+    Kernel: 240MB min, 267MB avg, 334MB max
+    Native: 173MB min, 182MB avg, 187MB max
+
+Per-Package Stats:
+  * com.android.settings / 1000 / v23:
+      * com.android.settings / 1000 / v23:
+               TOTAL: 9.7% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+                 Top: 9.5% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+            Receiver: 0.25%
+          (Last Act): 1.1%
+            (Cached): 60% (7.4MB-21MB-39MB/5.2MB-17MB-35MB over 13)
+      * com.android.settings:CryptKeeper / 1000 / v23:
+               TOTAL: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+                 Top: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+            (Cached): 0.33%
+
+Summary:
+  * com.android.settings / 1000 / v23:
+           TOTAL: 9.7% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+             Top: 9.5% (36MB-43MB-52MB/33MB-39MB-47MB over 5)
+        Receiver: 0.25%
+      (Last Act): 1.1%
+        (Cached): 60% (7.4MB-21MB-39MB/5.2MB-17MB-35MB over 13)
+  * com.android.settings:CryptKeeper / 1000 / v23:
+           TOTAL: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+             Top: 0.64% (8.6MB-8.8MB-9.0MB/4.8MB-4.8MB-4.8MB over 2)
+        (Cached): 0.33%
+
+Run time Stats:
+  SOff/Norm: +11m46s502ms
+  SOn /Norm: +25m6s375ms
+       Mod : +3s177ms
+      TOTAL: +36m56s54ms
+
+Memory usage:
+  Kernel : 287MB (70 samples)
+  Native : 182MB (70 samples)
+  Persist: 229MB (144 samples)
+  Top    : 59MB (89 samples)
+  ImpFg  : 8.4MB (98 samples)
+  ImpBg  : 19MB (75 samples)
+  Service: 104MB (429 samples)
+  Receivr: 781KB (490 samples)
+  Home   : 12MB (8 samples)
+  LastAct: 0.98MB (32 samples)
+  CchAct : 2.8MB (10 samples)
+  CchEmty: 181MB (440 samples)
+  Cached : 511MB (70 samples)
+  Free   : 190MB (70 samples)
+  Z-Ram  : 51KB (70 samples)
+  TOTAL  : 1.7GB
+  ServRst: 59KB (93 samples)
+
+          Start time: 2016-01-01 08:01:16
+  Total elapsed time: +45m52s200ms (partial) libart.so

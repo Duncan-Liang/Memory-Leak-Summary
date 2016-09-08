@@ -1,0 +1,281 @@
+TASK com.android.settings id=30
+  ACTIVITY com.android.settings/.Settings 8fab00c pid=6209
+    Local Activity 8b27bb1 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={0 1.0 460mcc11mnc zh_CN ldltr sw360dp w360dp h568dp 320dpi nrml port finger -keyb/v/h -nav/h s.18}
+      mLoadersStarted=true
+      Active Fragments in c88949:
+        #0: DashboardSummary{c3d7679 #0 id=0x7f1301a8}
+          mFragmentId=#7f1301a8 mContainerId=#7f1301a8 mTag=null
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mResumed=true mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{c88949 in HostCallbacks{6ace24e}}
+          mHost=android.app.Activity$HostCallbacks@6ace24e
+          mContainer=android.widget.FrameLayout{26c370e V.E...... ........ 0,0-720,1024 #7f1301a8 app:id/main_content}
+          mView=android.widget.ScrollView{ce8781f VFED.V... ........ 0,0-720,1024 #7f13006d app:id/dashboard}
+          Child FragmentManager{ae44f6f in DashboardSummary{c3d7679}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@6ace24e
+              mContainer=android.app.Fragment$1@243d47c
+              mParent=DashboardSummary{c3d7679 #0 id=0x7f1301a8}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: DashboardSummary{c3d7679 #0 id=0x7f1301a8}
+      Fragments Created Menus:
+        #0: DashboardSummary{c3d7679 #0 id=0x7f1301a8}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@6ace24e
+        mContainer=android.app.Activity$HostCallbacks@6ace24e
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=983801 (10652 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{e56ee3f V.E...... R....... 0,0-720,1280}
+        com.android.internal.widget.ActionBarOverlayLayout{1d62f5b V.E...... ........ 0,0-720,1184 #10203e4 android:id/decor_content_parent}
+          android.widget.FrameLayout{60213f8 V.E...... ........ 0,160-720,1184 #1020002 android:id/content}
+            android.widget.FrameLayout{26c370e V.E...... ........ 0,0-720,1024 #7f1301a8 app:id/main_content}
+              android.widget.ScrollView{ce8781f VFED.V... ........ 0,0-720,1024 #7f13006d app:id/dashboard}
+                android.widget.LinearLayout{a8ec76c V.E...... ........ 0,0-720,3760 #7f13006e app:id/dashboard_container}
+                  android.widget.LinearLayout{6fc605d V.E...... ........ 0,0-720,960 #7f13006f app:id/category}
+                    android.widget.TextView{3bf8dd2 V.ED..... ........ 0,0-720,96 #7f130070 app:id/category_title}
+                    com.android.settings.dashboard.DashboardContainerView{ba195a0 V.E...... ........ 0,96-720,960 #7f130071 app:id/category_content}
+                      com.android.settings.dashboard.DashboardTileView{923a559 VFE...C.. ........ 0,0-720,144}
+                        android.widget.LinearLayout{94471ff V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{71a6bcc V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{ee03e15 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{1a3052a V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{6782f1b V.E...... ........ 0,49-89,92}
+                                android.widget.TextView{96878b8 V.ED..... ........ 0,0-89,43 #7f13003f app:id/title}
+                                android.widget.TextView{c93a691 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{cc449f6 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{fe30f82 VFE...C.. ........ 0,144-720,288}
+                        android.widget.LinearLayout{2f36693 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{395a6d0 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{46b96c9 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{236a1ce V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{9e3d8ef V.E...... ........ 0,49-128,92}
+                                android.widget.TextView{9f65ffc V.ED..... ........ 0,0-128,43 #7f13003f app:id/title}
+                                android.widget.TextView{80dd685 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{51f0cda V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{1477fe8 VFE...C.. ........ 0,288-720,432}
+                        android.widget.LinearLayout{9da5601 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{df11ca6 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{4c7f6e7 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{408b294 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{95513d V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{825d32 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{6931a83 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{3086400 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{962dbdf VFE...C.. ........ 0,432-720,576}
+                        android.widget.LinearLayout{b8fc02c V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{6ca6af5 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{f44608a V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{a4356fb V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{44eb318 V.E...... ........ 0,49-96,92}
+                                android.widget.TextView{ca3c171 V.ED..... ........ 0,0-96,43 #7f13003f app:id/title}
+                                android.widget.TextView{50ffb56 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{e667d7 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{22876e2 VFE...C.. ........ 0,576-720,720}
+                        android.widget.LinearLayout{cfccd30 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{1482da9 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{35b1f2e V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{ce07acf V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{c198c5c V.E...... ........ 0,49-192,92}
+                                android.widget.TextView{accfb65 V.ED..... ........ 0,0-192,43 #7f13003f app:id/title}
+                                android.widget.TextView{2fe003a G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{113f4eb V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{8bbe606 VFE...C.. ........ 0,720-720,864}
+                        android.widget.LinearLayout{6baf4c7 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{d190af4 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{1b8321d V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{a205c92 V.E...... ........ 0,0-576,144}
+                              android.widget.RelativeLayout{6e81663 V.E...... ........ 0,50-64,93}
+                                android.widget.TextView{b35e260 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{72ad319 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{7e3afde G.ED..... ......I. 0,0-0,0 #7f130072 app:id/tile_divider}
+                  android.widget.LinearLayout{3f6ebea V.E...... ........ 0,976-720,1936 #7f13006f app:id/category}
+                    android.widget.TextView{cffeedb V.ED..... ........ 0,0-720,96 #7f130070 app:id/category_title}
+                    com.android.settings.dashboard.DashboardContainerView{c219d78 V.E...... ........ 0,96-720,960 #7f130071 app:id/category_content}
+                      com.android.settings.dashboard.DashboardTileView{b1acc51 VFE...C.. ........ 0,0-720,144}
+                        android.widget.LinearLayout{c4fdcb6 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{e049db7 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{28f1924 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{66edc8d V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{6750e42 V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{33b5e53 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{e36a390 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{479b489 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{88a68bc VFE...C.. ........ 0,144-720,288}
+                        android.widget.LinearLayout{69a239a V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{99644cb V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{df354a8 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{6566bc1 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{fe6df66 V.E...... ........ 0,49-192,92}
+                                android.widget.TextView{c4262a7 V.ED..... ........ 0,0-192,43 #7f13003f app:id/title}
+                                android.widget.TextView{67d1354 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{61d02fd V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{d4210c0 VFE...C.. ........ 0,288-720,432}
+                        android.widget.LinearLayout{abbd1f9 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{b88753e V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{8c6ff9f V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{29778ec V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{3de94b5 V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{12a74a V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{425f6bb G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{4f937d8 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{4b34397 VFE...C.. ........ 0,432-720,576}
+                        android.widget.LinearLayout{cb5f984 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{b99a56d V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{20d5a2 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{c5e8233 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{65b29f0 V.E...... ........ 0,49-228,92}
+                                android.widget.TextView{b382b69 V.ED..... ........ 0,0-228,43 #7f13003f app:id/title}
+                                android.widget.TextView{5aa9ee G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{2750e8f V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{64b76fa VFE...C.. ........ 0,576-720,720}
+                        android.widget.LinearLayout{bbe04ab V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{c964708 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{dd0dea1 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{74a08c6 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{8564087 V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{3cccbb4 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{57bc3dd G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{54deb52 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{6f5c0d9 VFE...C.. ........ 0,720-720,864}
+                        android.widget.LinearLayout{ffcb97f V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{659dd4c V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{a789195 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{fef92aa V.E...... ........ 0,0-576,144}
+                              android.widget.RelativeLayout{12d6e9b V.E...... ........ 0,50-64,93}
+                                android.widget.TextView{eed8238 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{81db211 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{b0c2f76 G.ED..... ......I. 0,0-0,0 #7f130072 app:id/tile_divider}
+                  android.widget.LinearLayout{61a5e4d V.E...... ........ 0,1952-720,2768 #7f13006f app:id/category}
+                    android.widget.TextView{e83cd02 V.ED..... ........ 0,0-720,96 #7f130070 app:id/category_title}
+                    com.android.settings.dashboard.DashboardContainerView{8211613 V.E...... ........ 0,96-720,816 #7f130071 app:id/category_content}
+                      com.android.settings.dashboard.DashboardTileView{826050 VFE...C.. ........ 0,0-720,144}
+                        android.widget.LinearLayout{ebb9249 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{9e5b74e V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{8fd006f V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{eb5317c V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{a220a05 V.E...... ........ 0,49-128,92}
+                                android.widget.TextView{469fa5a V.ED..... ........ 0,0-128,43 #7f13003f app:id/title}
+                                android.widget.TextView{703348b G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{4e1e968 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{9ee8e67 VFE...C.. ........ 0,144-720,288}
+                        android.widget.LinearLayout{4a03414 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{38c74bd V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{58d7ab2 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{4baa03 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{f567d80 V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{3109fb9 V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{d48ffe G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{ad4e35f V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{be5ae0a VFE...C.. ........ 0,288-720,432}
+                        android.widget.LinearLayout{6167c98 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{7198cf1 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{238a0d6 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{ea1df57 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{142ca44 V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{7a9072d V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{cf5f462 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{afb19f3 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{d42f4ae VFE...C.. ........ 0,432-720,576}
+                        android.widget.LinearLayout{8a3624f V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{d9f1ddc V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{c00eee5 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{f4dadba V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{6ddd46b V.E...... ........ 0,49-192,92}
+                                android.widget.TextView{8ee3bc8 V.ED..... ........ 0,0-192,43 #7f13003f app:id/title}
+                                android.widget.TextView{8569461 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{218eb86 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{7159d VFE...C.. ........ 0,576-720,720}
+                        android.widget.LinearLayout{83a12 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{11e65e3 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{d8ebbe0 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{2446e99 V.E...... ........ 0,0-576,144}
+                              android.widget.RelativeLayout{42be55e V.E...... ........ 0,50-160,93}
+                                android.widget.TextView{b477d3f V.ED..... ........ 0,0-160,43 #7f13003f app:id/title}
+                                android.widget.TextView{353b60c G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{5645b55 G.ED..... ......I. 0,0-0,0 #7f130072 app:id/tile_divider}
+                  android.widget.LinearLayout{55c57d1 V.E...... ........ 0,2784-720,3744 #7f13006f app:id/category}
+                    android.widget.TextView{7b94236 V.ED..... ........ 0,0-720,96 #7f130070 app:id/category_title}
+                    com.android.settings.dashboard.DashboardContainerView{7d1d537 V.E...... ........ 0,96-720,960 #7f130071 app:id/category_content}
+                      com.android.settings.dashboard.DashboardTileView{2d8baa4 VFE...C.. ........ 0,0-720,144}
+                        android.widget.LinearLayout{2cf4bc2 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{5648dd3 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{338dd10 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{cf13009 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{f4a620e V.E...... ........ 0,49-160,92}
+                                android.widget.TextView{160342f V.ED..... ........ 0,0-160,43 #7f13003f app:id/title}
+                                android.widget.TextView{136ba3c G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{773c3c5 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{6d33e28 VFE...C.. ........ 0,144-720,288}
+                        android.widget.LinearLayout{fd1d741 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{934a4e6 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{58c7a27 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{b3214d4 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{6a3a67d V.E...... ........ 0,49-160,92}
+                                android.widget.TextView{2162972 V.ED..... ........ 0,0-160,43 #7f13003f app:id/title}
+                                android.widget.TextView{43c91c3 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{205aa40 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{d196abe VFE...C.. ........ 0,288-720,432}
+                        android.widget.LinearLayout{f4c871f V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{5bb2a6c V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{3262835 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{57d74ca V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{e3c763b V.E...... ........ 0,49-96,92}
+                                android.widget.TextView{8668158 V.ED..... ........ 0,0-96,43 #7f13003f app:id/title}
+                                android.widget.TextView{11e12b1 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{9661396 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{2d028ed VFE...C.. ........ 0,432-720,576}
+                        android.widget.LinearLayout{367d322 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{3d571b3 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{df82370 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{61366e9 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{d3ff6e V.E...... ........ 0,49-64,92}
+                                android.widget.TextView{f2b760f V.ED..... ........ 0,0-64,43 #7f13003f app:id/title}
+                                android.widget.TextView{214069c G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{53288a5 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{8a8f088 VFE...C.. ........ 0,576-720,720}
+                        android.widget.LinearLayout{a680a21 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{7e88e46 V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{9821807 V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{c208d34 V.E...... ........ 0,0-576,142}
+                              android.widget.RelativeLayout{f1a275d V.E...... ........ 0,49-160,92}
+                                android.widget.TextView{50f48d2 V.ED..... ........ 0,0-160,43 #7f13003f app:id/title}
+                                android.widget.TextView{41e2da3 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{1d348a0 V.ED..... ........ 0,142-576,144 #7f130072 app:id/tile_divider}
+                      com.android.settings.dashboard.DashboardTileView{dc00ff VFE...C.. ........ 0,720-720,864}
+                        android.widget.LinearLayout{60fe515 V.E...... ........ 0,0-720,144}
+                          android.widget.ImageView{fcf202a V.ED..... ........ 32,48-80,96 #7f13003e app:id/icon}
+                          android.widget.LinearLayout{179ae1b V.E...... ........ 144,0-720,144}
+                            android.widget.LinearLayout{7bd8bb8 V.E...... ........ 0,0-576,144}
+                              android.widget.RelativeLayout{496bd91 V.E...... ........ 0,50-128,93}
+                                android.widget.TextView{11714f6 V.ED..... ........ 0,0-128,43 #7f13003f app:id/title}
+                                android.widget.TextView{b7b10f7 G.ED..... ......ID 0,0-0,0 #7f130064 app:id/status}
+                            android.view.View{89bab64 G.ED..... ......I. 0,0-0,0 #7f130072 app:id/tile_divider}
+          com.android.internal.widget.ActionBarContainer{ac840d1 V.ED..... ........ 0,48-720,160 #10203e5 android:id/action_bar_container}
+            android.widget.Toolbar{da97736 V.E...... ........ 0,0-720,112 #10203e6 android:id/action_bar}
+              android.widget.TextView{9160135 V.ED..... ........ 32,29-112,83}
+              android.widget.ActionMenuView{56588f9 V.E...... ........ 624,0-720,112}
+                com.android.internal.view.menu.ActionMenuItemView{9e2487f VFED..CL. ........ 0,8-96,104 #7f1302e2 app:id/search}
+            com.android.internal.widget.ActionBarContextView{8bf190d G.E...... ......I. 0,0-0,0 #10203e7 android:id/action_context_bar}
+        android.view.View{9f53d85 V.ED..... ........ 0,1184-720,1280 #1020030 android:id/navigationBarBackground}
+        android.view.View{7e7da V.ED..... ........ 0,0-720,48 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {5877105}
+      (Total messages: 0, polling=false, quitting=false)

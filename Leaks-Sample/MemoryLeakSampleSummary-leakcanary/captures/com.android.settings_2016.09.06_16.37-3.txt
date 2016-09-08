@@ -1,0 +1,61 @@
+Applications Graphics Acceleration Info:
+Uptime: 1019739 Realtime: 1342996
+
+** Graphics info for pid 6209 [com.android.settings] **
+
+Stats since: 269088717938ns
+Total frames rendered: 985
+Janky frames: 200 (20.30%)
+90th percentile: 23ms
+95th percentile: 32ms
+99th percentile: 73ms
+Number Missed Vsync: 58
+Number High input latency: 8
+Number Slow UI thread: 136
+Number Slow bitmap uploads: 5
+Number Slow issue draw commands: 84
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           221952 / 25165824
+  LayerCache                  0 / 16777216 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  2097152
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  TessellationCache           0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  PatchCache                  0 /   131072
+  FontRenderer 0 A8      524288 /   524288
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total   524288 /   524288
+Other:
+  FboCache                    0 /       16
+Total memory usage:
+  746240 bytes, 0.71 MB
+
+Profile data in ms:
+
+	com.android.settings/com.android.settings.Settings/android.view.ViewRootImpl@84cd822 (visibility=0)
+Stats since: 269088717938ns
+Total frames rendered: 985
+Janky frames: 200 (20.30%)
+90th percentile: 23ms
+95th percentile: 32ms
+99th percentile: 73ms
+Number Missed Vsync: 58
+Number High input latency: 8
+Number Slow UI thread: 136
+Number Slow bitmap uploads: 5
+Number Slow issue draw commands: 84
+
+View hierarchy:
+
+  com.android.settings/com.android.settings.Settings/android.view.ViewRootImpl@84cd822
+  233 views, 304.43 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        233
+Total DisplayList:  304.43 kB
+
