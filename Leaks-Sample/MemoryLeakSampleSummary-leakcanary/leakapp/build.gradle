@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+dependencies {
+  debugCompile project(':leakcanary-android')
+  releaseCompile project(':leakcanary-android-no-op');
+}
 android {
     compileSdkVersion 23
     buildToolsVersion "24.0.2"
