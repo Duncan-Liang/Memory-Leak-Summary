@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+//add by liangfeng 2016/09/10
+
 import com.leakapp.leakcanary.leaks.HandlerLeakActivity;
 
 public class SummaryActivity extends Activity implements View.OnClickListener {
