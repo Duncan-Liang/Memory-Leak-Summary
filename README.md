@@ -3,3 +3,4 @@
 主要针对Android 应用 Java Heap内存泄漏的种种情形进行分析处理
 分析Android 内存机制
 Linux进程管理机制
+Android进程管理机制
